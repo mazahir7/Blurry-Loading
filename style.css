@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+
+  font-family: "Ubuntu", sans-serif;
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bg {
+  background: url(images/manchesterUnited.jpg) no-repeat center center/cover;
+
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(30px);
+}
+
+.loading-num {
+
+  font-size: 45px;
+  color: #fff;
+  text-shadow: 3px 2px 3px #000;
+}
